@@ -1,7 +1,13 @@
+import Features from"../../components/home/Features"
+import FeaturesGrid from "../../components/home/FeaturesGrid"
+
 
 const HomeScreen = () => {
   return (
-    <div></div>
+    <div>
+      <Features/>
+      <FeaturesGrid/>
+    </div>
   )
 }
 
